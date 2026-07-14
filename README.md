@@ -1,5 +1,5 @@
 # ![secureid thumbnail][secureid-thumbnail] SecureID ![secureid badge][secureid-badge]
-A Windows form application that can generate a digital ID where the ID's information is stored in an encrypted QR code. A registration form is filled out to apply for the ID. The QR code generated to the ID can then be used to verify if the ID is genuine and registered to the database.
+A Windows application that can generate a digital ID where the ID's information is stored in an encrypted QR code. A registration form is filled out to apply for the ID. The QR code generated to the ID can then be used to verify if the ID is genuine and registered to the database.
 
 ## Table of Contents
 - [Features](#features)
@@ -29,14 +29,12 @@ A Windows form application that can generate a digital ID where the ID's informa
 > The ID contains an encrypted QR code which includes all the ID's information. This QR code can then be used to verify if the ID is genuine and registered to the database.
 
 ## Installation
-1. Download the latest version of [SecureID][release-page].
-2. Install [SecureID-0.1.0-Alpha.exe][latest-release].
+1. Download and install the latest version of [SecureID][release-page].
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-- **[Visual Studio 2022][visual-studio-2022]**: For development environment.
 - **[Windows Forms][windows-forms]**: For graphical user interface.
 - **[Advanced Installer][advanced-installer]**: For installer.
 - **[Otp.NET][otp-net]**: For two-factor authentication.
@@ -54,8 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [id-verification]: https://github.com/AHG-BSCS/PIYU_SecureID/assets/130748576/67beb747-7b36-4eb3-87f0-aa80f43eea95
 
 [release-page]: https://github.com/AHG-BSCS/PIYU_SecureID/releases
-[latest-release]: https://github.com/AHG-BSCS/PIYU_SecureID/releases/download/v0.1.0-Alpha/SecureID-0.1.0-Alpha.exe
-[visual-studio-2022]: https://learn.microsoft.com/en-us/visualstudio/ide/?view=vs-2022
 [windows-forms]: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-8.0
 [advanced-installer]: https://www.advancedinstaller.com/user-guide/using.html
 [otp-net]: https://github.com/kspearrin/Otp.NET
