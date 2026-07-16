@@ -38,8 +38,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **[Windows Forms][windows-forms]**: For graphical user interface.
 - **[Advanced Installer][advanced-installer]**: For installer.
 - **[Otp.NET][otp-net]**: For two-factor authentication.
-- **[Newtonsoft.Json][newtonsoft-json]**: For JSON serializer.
-- **[AForge.Video.DirectShow][aforge-video-directshow]**: For video sources access library.
+- **[Json.NET][newtonsoft-json]**: For JSON serializer.
+- **[AForge.NET][aforge-video-directshow]**: For video sources access library.
 - **[QRCoder][qrcoder]**: For QR code generator.
 
 <!-- Reference -->
@@ -54,7 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [release-page]: https://github.com/AHG-BSCS/PIYU_SecureID/releases
 [windows-forms]: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-8.0
 [advanced-installer]: https://www.advancedinstaller.com/user-guide/using.html
-[otp-net]: https://github.com/kspearrin/Otp.NET
-[newtonsoft-json]: https://www.newtonsoft.com/json/help/html/Introduction.htm
-[aforge-video-directshow]: https://www.aforgenet.com/framework/
-[qrcoder]: https://github.com/codebude/QRCoder/wiki
+[otp-net]: https://www.nuget.org/packages/Otp.NET
+[newtonsoft-json]: https://www.nuget.org/packages/Newtonsoft.Json
+[aforge-video-directshow]: https://www.nuget.org/packages/AForge.Video.DirectShow
+[qrcoder]: https://www.nuget.org/packages/QRCoder
